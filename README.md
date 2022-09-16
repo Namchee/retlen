@@ -1,2 +1,3 @@
-# arglen
-Limits the number of arguments in a Go function
+# funclint
+
+List of linters to keep your GoLang functions cleaner.

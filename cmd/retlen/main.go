@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Namchee/argslen/pkg/retlen"
+	"github.com/Namchee/funclint/pkg/retlen"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 

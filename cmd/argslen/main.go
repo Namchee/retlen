@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Namchee/argslen/pkg/argslen"
+	"github.com/Namchee/funclint/pkg/argslen"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 

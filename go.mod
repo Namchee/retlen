@@ -1,4 +1,4 @@
-module github.com/Namchee/argslen
+module github.com/Namchee/funclint
 
 go 1.19
 
