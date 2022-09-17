@@ -41,7 +41,10 @@ func run(pass *analysis.Pass) (interface{}, error) {
 				return true
 			}
 
-			returnCount := len(fun.Type.Results.List)
+			returnCount := 0
+			if fun.Type.Results != nil {
+				returnCount = len(fun.Type.Results.List)
+			}
 
 			if uint(returnCount) > maxReturn {
 				msg := fmt.Sprintf("Function %s returns too many variables", funcName)

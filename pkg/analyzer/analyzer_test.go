@@ -14,6 +14,6 @@ func TestSampleFiles(t *testing.T) {
 		t.Fatalf("failed to get working directory: %s", err)
 	}
 
-	testData := filepath.Join(filepath.Dir(wd), "testdata")
+	testData := filepath.Join(filepath.Dir(wd), "..", "testdata")
 	analysistest.Run(t, testData, Analyzer, "sample")
 }
