@@ -1,4 +1,4 @@
-module github.com/Namchee/funclint
+module github.com/Namchee/retlen
 
 go 1.19
 

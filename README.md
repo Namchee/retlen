@@ -1,3 +1,3 @@
-# funclint
+# retlen
 
-List of linters to keep your GoLang functions cleaner.
+Checks the number of return values from functions.

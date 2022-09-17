@@ -1,4 +1,4 @@
-package retlen
+package analyzer
 
 import (
 	"errors"
