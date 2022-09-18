@@ -37,7 +37,7 @@ func run(pass *analysis.Pass) (interface{}, error) {
 			}
 
 			funcName := fun.Name.Name
-			if !includeTest && strings.HasPrefix(funcName, "test") {
+			if !includeTest && strings.HasPrefix(funcName, "Test") {
 				return true
 			}
 

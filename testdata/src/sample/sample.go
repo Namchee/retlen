@@ -15,3 +15,7 @@ func FunctionWithEnoughReturn() (int, bool) {
 func FunctionWithTooManyReturn() (int, int, int) {
 	return 1, 2, 3
 }
+
+func TestSkipThis() (int, int, int) {
+	return 1, 2, 3
+}
