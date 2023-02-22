@@ -12,7 +12,7 @@ func FunctionWithEnoughReturn() (int, bool) {
 	return 0, false
 }
 
-func FunctionWithTooManyReturn() (int, int, int) {
+func FunctionWithTooManyReturn() (int, int, int) { // want "Function FunctionWithTooManyReturn returns too many variables"
 	return 1, 2, 3
 }
 
